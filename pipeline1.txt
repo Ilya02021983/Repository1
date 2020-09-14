@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'My First Deploy1'
-                sh 'python --version'
+                sh 'Hello HTTPD'
                 
             }    
         }
