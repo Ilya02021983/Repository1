@@ -2,7 +2,7 @@ pipeline {
       agent { 
              docker {
                label 'master'
-               image 'python:latest' 
+               image 'httpd:latest' 
               }
             }   
     stages {
