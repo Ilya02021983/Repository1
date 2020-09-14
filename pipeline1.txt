@@ -9,7 +9,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                echo 'My First Build'
+                echo 'My First Build1'
                 sh 'ip a s'
                 
             }
@@ -17,12 +17,12 @@ pipeline {
         
         stage('Test') {
             steps {
-                echo 'My First Test'
+                echo 'My First Test1'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'My First Deploy'
+                echo 'My First Deploy1'
                 sh 'python --version'
                 
             }    
